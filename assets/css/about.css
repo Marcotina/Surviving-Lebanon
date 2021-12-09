@@ -1,0 +1,7 @@
+body{
+    background-image: url("../pictures/8.jfif");
+    background-attachment: scroll;
+    overflow: scroll;
+    z-index: 1;
+    margin-top: 170px;
+}

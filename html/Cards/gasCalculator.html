@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gas Consumption calculator.</title>
+		<script type="text/javascript">
+			function addTwoNumbers(textBox1, textBox2){
+				var x=document.getElementById(textBox1).value;
+				var y=document.getElementById(textBox2).value;
+			}
+		</script>
+        <link rel="stylesheet" href="../../assets/css/">
+	</head>
+<body>
+    <div class="back">
+        <a href="../../resources.php">Back to resources tab</a>
+    </div>
+	<h1>Everything you need to know about your car's fuel.</h1>
+
+    <div class="gasCost">Price of a gas tank (20 Liters): 302'600 L.L</div>
+	<b>Liter consumption per 100 kms:</b><br>
+	<input type="text" id="textIn1"/><br>
+	<b>Tank capacity in liters:</b><br>
+	<input type="text" id="textIn2"/><br><br>
+	<input type="button" id="btnSum" value="Calculate gas efficiency" onClick="addTwoNumbers('textIn1','textIn2')"/>
+
+    <div>
+        <table>
+            <tr>Trip costs.</tr>
+            <tr>
+            <th>Kms</th>
+            <th>Price in LBP</th>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

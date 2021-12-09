@@ -1,0 +1,39 @@
+body{
+    font-family:'Josefin Sans', sans-serif;
+}
+
+table{
+    margin: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: #acacac;
+  } #fff2df
+table, th, td {
+    border:2px solid black;
+    backdrop-filter: blur(10px);
+  }
+
+  th{
+      padding: 5px;
+  }
+
+  .date{
+      color: black;
+      text-align: center;
+  }
+
+  .rate{
+      text-align: center;
+  }
+
+  .variation{
+      text-align: center;
+  }
+
+  .empty-reason{
+    text-align: center;
+  }

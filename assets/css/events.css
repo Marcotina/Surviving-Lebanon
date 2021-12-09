@@ -1,0 +1,120 @@
+body{
+    background-image: url("../pictures/8.jfif");
+    background-size: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+
+.container{
+    height:fit-content;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    margin:auto;
+    margin-top: 19vh;
+    border: 3px solid black;
+    backdrop-filter: blur(10px);
+}
+
+.container-secondary{
+    height:fit-content;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+    border: 3px solid black;
+    backdrop-filter: blur(15px);
+}
+
+
+h2{
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border: 3px solid black;
+    border-radius:inherit;
+}
+
+.text{
+    color: black;    
+    font-size: 12pt;
+    margin-top: 7px;
+}
+
+#special{
+    text-shadow: rgb(110, 2, 2);
+    font-weight: 525;
+}
+
+#scroll-container {
+    position: sticky;
+    bottom: 0;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 155px;
+    overflow: hidden;  
+    font-family:'Josefin Sans', sans-serif;
+    z-index: 3;
+    backdrop-filter: blur(15px);
+  }
+  
+#scroll-text {
+    color: black;
+    height: 90%;
+    text-align: center;
+    text-align: justify;
+    scroll-behavior: smooth;
+    
+    /* animation properties */
+    -moz-transform: translateY(75%);
+    -webkit-transform: translateY(75%);
+    transform: translateY(75%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(75%); }
+    to { -moz-transform: translateY(-75%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(175%); }
+    to { -webkit-transform: translateY(-175%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(75%);
+      -webkit-transform: translateY(75%);
+      transform: translateY(75%);
+    }
+    to {
+      -moz-transform: translateY(-175%);
+      -webkit-transform: translateY(-175%);
+      transform: translateY(-175%);
+    }
+  }
+
+  .reference-text{
+    color: black;    
+    font-size: 12pt;
+    margin-top: 7px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#reference-title{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 525;
+}

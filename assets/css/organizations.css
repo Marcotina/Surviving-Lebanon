@@ -1,0 +1,235 @@
+body{
+  background-image: url("../pictures/6.jpg");
+  background-size:contain;
+  background-attachment: scroll;
+  overflow: scroll;
+  z-index: 1;
+  margin-top: 170px;
+}
+
+#mainText{
+  font-family: Mohave;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: +0.1;
+  border: 4px outset gray;
+  color: #808d93;
+  text-shadow: 0 1px black,
+              -1px 0 black,
+              -1px 2px black;
+  backdrop-filter: blur(15px);
+  background-color: #11112e81;
+  filter: brightness(120%);
+  z-index: 2;
+}
+
+.container{
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.container .card {
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.container .card:nth-child(1) .icon {
+  backdrop-filter: blur(3px);
+}
+
+.container .card:nth-child(2) .icon {
+  backdrop-filter: blur(3px);
+}
+
+.container .card:nth-child(3) .icon {
+  backdrop-filter: blur(3px);
+}
+
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+
+
+.container .card:hover .face.face1 {
+  transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+
+.container .card .face.face1 .content i {
+  max-width: 100px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container .card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+}
+
+.container a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.profileImg{
+  border: 2px outset inherit;
+  width: 300px;
+  height: 200px;
+}
+
+.profileImg1{
+  background: #fff;
+  border: 2px outset inherit;
+  width: 200px;
+  height: 200px;
+}
+
+
+.cardTitle{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15pt;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 6px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  flex-wrap: nowrap;
+}
+
+.hvr-icon{
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.cardTitle .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.cardTitle:hover .hvr-icon, .cardTitle:focus .hvr-icon, .cardTitle:active .hvr-icon {
+  -webkit-transform: translateX(6px);
+  transform: translateX(6px);
+}
+
+.cardLink {
+  font-size: 14pt;
+  border: 2px solid #050647cc;
+  padding: 0.5rem 0.2rem;
+  margin-bottom: -1px;
+  display: block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.cardLink:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.cardLink:hover, .cardLink:focus, .cardLink:active {
+  color: white;
+}
+.cardLink:hover:before, .cardLink:focus:before, .cardLink:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+ul, li {
+  list-style-type: none;
+}
+
+.emergencyInfo{
+  font-size: 12pt;
+  text-align: center;
+  padding-bottom: 5px;
+  color: red;
+}
+

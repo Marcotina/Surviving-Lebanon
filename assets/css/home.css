@@ -1,0 +1,13 @@
+body {
+    background-image: url("../pictures/9.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: scroll;
+    z-index: 1;
+}
+
+#headline {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 70px;
+    border: 3px outset gray;
+}
