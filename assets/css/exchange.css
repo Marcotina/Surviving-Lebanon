@@ -12,6 +12,7 @@ tr:nth-child(even) {
   tr:nth-child(odd) {
     background-color: #acacac;
   } #fff2df
+  
 table, th, td {
     border:2px solid black;
     backdrop-filter: blur(10px);

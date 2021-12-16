@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-  height: 500px;
+  height: 550px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,19 +38,6 @@ body{
 .container .card {
   position: relative;
   border-radius: 10px;
-}
-
-
-.container .card:nth-child(1) .icon {
-  backdrop-filter: blur(3px);
-}
-
-.container .card:nth-child(2) .icon {
-  backdrop-filter: blur(3px);
-}
-
-.container .card:nth-child(3) .icon {
-  backdrop-filter: blur(3px);
 }
 
 
@@ -84,6 +71,7 @@ body{
 
 .container .card:hover .face.face1 .content {
   opacity: 1;
+  transition: 0.5s;
 }
 
 
@@ -233,3 +221,7 @@ ul, li {
   color: red;
 }
 
+.whitespace{
+  width: 200px;
+  height: 200px;
+}

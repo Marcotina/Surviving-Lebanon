@@ -19,9 +19,14 @@
     <body>
     <div id="page-container">
     <div id="content-wrap">
-    <div class='liraRate'>
-    </div>
-
+      <div id='liraRate'>
+        <span id="border">1 USD is bought at 25'600 LBP<br><br>
+        1 USD is <span id="space">sold</span><span id="space">at 25'500 LBP</span></span>
+      </div>
+      <div id="gasPrice">
+      <span id="border"> 1 tank of 95 unleaded fuel is sold at 306'200 LBP</span>
+      </div>
+      <br style="clear:both;"/>
     <div class="container">
       <div class="card">
         <a href="html/Cards/foodSafety">
@@ -53,7 +58,7 @@
         <a href="">
         <div class="cardContent" >
         <div class="cardFront">
-          <img src="assets/pictures/" class="cardImg">
+          <img src="assets/pictures/humanCare.jpg" class="cardImg">
         </div>
         <div class="cardBack">
           <h2 class="cardTitle"></h2>
@@ -66,10 +71,10 @@
         <a href="">
         <div class="cardContent" >
         <div class="cardFront">
-          <img src="assets/pictures/" class="cardImg">
+          <img src="assets/pictures/transport.jpg" class="cardImg">
         </div>
         <div class="cardBack">
-          <h2 class="cardTitle"></h2>
+          <h2 class="cardTitle">Lower cost, and safe public transportation</h2>
           <p class="cardText"></p>
         </div>
         </div>
@@ -102,7 +107,7 @@
       </div>
 
       <div class="card">
-        <a href="html/Cards/gasCalculator">
+        <a href="html/Cards/gasCalculator"> 
         <div class="cardContent" >
         <div class="cardFront">
           <img src="assets/pictures/gasCalc.png" class="cardImg">
@@ -112,6 +117,7 @@
           <p class="cardText">A small scale calculator that calculates the price of a tank of gas, as well as how much it would take to fill your specific car, and how many KMs it can travel when full.</p>
         </div>
         </div>
+        </a>
       </div>
 
       

@@ -1,7 +1,45 @@
 body{
-    background-image: url("../pictures/8.jfif");
-    background-attachment: scroll;
-    overflow: scroll;
+    background: url(../pictures/10.jpg);
     z-index: 1;
+    size: 100%;
     margin-top: 170px;
+    font-family:'Josefin Sans', sans-serif;
 }
+
+#maintext{
+    backdrop-filter: blur(10px);
+    border: 2px solid;
+    border-style: groove;
+    font-size: 14pt;
+    color: #FFF;
+}
+.line{
+    margin: 15px;
+    line-height: 1.5;
+}
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+.underline{
+    position: relative;
+  }
+  
+  .underline::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0074D9;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  @media (hover: hover) {
+    .underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }

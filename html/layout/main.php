@@ -1,10 +1,3 @@
-<?php
-
-/*session_start();*/
-setcookie('languageRetention', "lang", time()+60*60*24*30, '/', 'seniorlebaneseresources.com', false, false);
-
-    ?>
-    
 <html>
 
 <head>

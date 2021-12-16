@@ -82,7 +82,7 @@
                 <p class="text"> - October 9: Lebanon's two largest power stations shut down after insufficient supply of fuel due to shortages, with a nationwide power-cut insuing.</p>
                 <p class="text"><p id="special">- October 14: Tayyouneh clash, 5 dead, 30 injured.</p></p>
                 <p class="text"> - October 15: National mourning day after the previous day's clashes and deaths.</p>
-                </p>
+                <p class="text"><p id="special">-December 9: Banks official rate declared to be 8'000 LBP for 1$, a net 101% increase from its previous rate of 3'900 LBP.</p></p>
         </div>
 
 
@@ -95,6 +95,7 @@
             <p class="reference-text">"Beirut Port Damage assessment: 8 charts on the economic cost of Beirut's port explosion" (ConstultancyUk, 2020): <a href="https://www.consultancy.uk/news/25577/8-charts-on-the-economic-cost-of-beiruts-port-explosion">Link here</a></p><br>
             <p class="reference-text">"Beirut Explosion: Macron calls for 'deep change' in Lebanon after blast" (BBC News, 2020): <a href="https://www.bbc.com/news/world-middle-east-53686563">Link here</a></p><br>
             <p class="reference-text">"Three Lebanese killed in fights related to fuel shortages" (Alarabiya, 2021): <a href="https://english.alarabiya.net/News/middle-east/2021/08/10/Three-Lebanese-killed-in-fights-related-to-fuel-shortages">Link here</a></p><br>
+            <p class="reference-text">"Lebanese Bank Dollars (Lollars) are now worth LBP 8,000" (Melki Law Firm, 9 December 2021): <a href=https://melkilawfirm.com/latest-news/lebanese-bank-dollars-lollars-are-now-worth-lbp-8000>Link here</a></p>
             <div>
         </div>
     </body>

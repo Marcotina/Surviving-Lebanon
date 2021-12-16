@@ -73,3 +73,27 @@ body{
     color: white;
     transform: rotateY(180deg);
 }
+
+#liraRate{
+    color: #FFF;
+    padding-top: 3px;
+    display:block; 
+    float: left;
+    padding-left: 300px;
+}
+
+#gasPrice{
+    color: #FFF;
+    padding-top: 3px;
+    float: right;
+    padding-right: 300px;
+    position:initial;
+}
+
+#space{
+    padding-left: 0.875em
+}
+#border{    
+    padding: 5px;
+    border: 3px solid white;
+}

@@ -142,8 +142,9 @@
   </div>
   </div>
   </div>
+  <div class="whitespace"></div>
 </body>
-
-<footer class="footer">Bcharre, Lebanon ~ 2020</footer>
-
+<div>
+  <footer class="footer">Bcharre, Lebanon ~ 2020</footer>
+</div>
 </html>
