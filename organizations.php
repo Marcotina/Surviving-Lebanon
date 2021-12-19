@@ -41,7 +41,7 @@
           <div class="list-group">
             <a href="html/cards/redCross" class="cardTitle">The Lebanese Red Cross<i class="fa fa-chevron-circle-right hvr-icon fa-xs"></i></a>
             <li class="emergencyInfo">Contact Details: 140 Hotline number</li>
-            <li> <a href="https://www.redcross.org.lb/#donate-now" class="cardLink">Donate to The Lebanese Red Cross</a></li>
+            <li> <a href="https://www.redcross.org.lb/#donate-now" class="cardLink">Donate to the Lebanese Red Cross</a></li>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@
       <div class="face face2">
         <div class="content">
             <p class="cardTitle">LGBTQ Safe Organizations</p>
-            <li> <a href="html/cards/MARSA" class="cardLink">MARSA</a></li>
+            <li> <a href="html/cards/marsa" class="cardLink">MARSA</a></li>
             <li> <a href="html/Cards/SIDC" class="cardLink">SIDC</a></li>
         </div>
       </div>
@@ -132,9 +132,9 @@
       <div class="face face2">
         <div class="content">
             <p class="cardTitle">Humanitarian NGOs</p>
-            <li> <a href="html/cards" class="cardLink">KAFA</a></li>
-            <li> <a href="html/cards" class="cardLink">Cénacle de la Lumière</a></li>
-            <li> <a href="html/cards" class="cardLink">IDRAAC</a></li>
+            <li> <a href="html/cards/kafa.html" class="cardLink">KAFA</a></li>
+            <li> <a href="html/cards/cdll.html" class="cardLink">Cénacle de la Lumière</a></li>
+            <li> <a href="html/cards/idraac.html" class="cardLink">IDRAAC</a></li>
         </div>
       </div>
     </div>

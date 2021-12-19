@@ -3,3 +3,49 @@ body{
     background-size: 100%;
     font-family:'Josefin Sans', sans-serif;
   }
+
+  
+#content-card {
+  border-radius: 8px;
+  padding: 14px 7px;
+  background: #fff;
+  max-width: 330px;
+  margin: -5vh auto;
+  box-shadow: 0 2px 3px rgba(71, 71, 71, 0.3);
+}
+
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+}
+
+a {
+  color: #bc4e9c;
+  font-weight: 700 !important;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.contact-info {
+  padding: 0.6em 0;
+}
+
+.content{
+  border: 4px outset solid gray;
+  backdrop-filter: blur(15px);
+  background-color: #11112e81;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  color: #808d93;
+}
+
+#contentText{
+  padding-top: 20px;
+}
+
+.hotline{
+  color: red;
+  text-align: center;
+}

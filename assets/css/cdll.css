@@ -4,13 +4,13 @@ body{
     font-family:'Josefin Sans', sans-serif;
   }
 
-  
+
 #content-card {
   border-radius: 8px;
   padding: 14px 7px;
   background: #fff;
   max-width: 330px;
-  margin: auto;
+  margin: -5vh auto;
   box-shadow: 0 2px 3px rgba(71, 71, 71, 0.3);
 }
 
@@ -43,9 +43,4 @@ a {
 
 #contentText{
   padding-top: 20px;
-}
-
-.hotline{
-  color: red;
-  text-align: center;
 }
