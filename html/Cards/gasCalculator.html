@@ -2,44 +2,35 @@
 <html>
 	<head>
 		<title>Gas Consumption calculator.</title>
-		<script type="text/javascript">
-			function addTwoNumbers(textBox1, textBox2){
-				var x=document.getElementById(textBox1).value;
-				var y=document.getElementById(textBox2).value;
-			}
-		</script>
-        <link rel="stylesheet" href="../../assets/css/">
+        <link rel="stylesheet" href="../../assets/css/gascalculator.css">
+        <link rel="stylesheet" href="../../assets/css/common.css">
+        <script src="../../assets/js/calculator.js"></script>
 	</head>
 <body>
     <div class="back">
-        <a href="../../resources.php">Back to resources tab</a>
+        <a href="../../resources.php" id="back" class="underline">Back to resources tab</a>
     </div>
-	<h1>Everything you need to know about your car's fuel.</h1>
 
-    <div class="gasCost">Price of a gas tank (20 Liters): 302'600 L.L</div>
-	<b>Liter consumption per 100 kms:</b><br>
-	<input type="text" id="textIn1"/><br>
-	<b>Tank capacity in liters:</b><br>
-	<input type="text" id="textIn2"/><br><br>
-	<input type="button" id="btnSum" value="Calculate gas efficiency" onClick="addTwoNumbers('textIn1','textIn2')"/>
+    <div id="mainContent">
 
-    <div>
-        <table>
-            <tr>Trip costs.</tr>
-            <tr>
-            <th>Kms</th>
-            <th>Price in LBP</th>
-            </tr>
-            <tr>
-            <td></td>
-            <td></td>
-            </tr>
-            <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            </tr>
-        </table>
+        <h1>Everything you need to know about your car's fuel.</h1>
+
+        <div class="sentence">
+            <p class="gasCost">Price of a gas tank (20 Liters): <span id="gasPrice">302'600</span><span> LBP</span></p>
+        </div>
+
+        <div >
+            <b >Liter consumption per 100 kms:</b><br>
+            <input type="number" id="numberIn1" placeholder="eg: 5.5, 7.9, 9.5, 12.3"><br>
+            <b>Tank capacity in liters:</b><br>
+            <input type="number" id="numberIn2" placeholder="eg: 45, 50, 55"><br><br>
+            <input type="button" id="button" id="btnSum" value="Calculate gas efficiency" onClick="addTwoNumbers()">
+        </div>
+        <div id="content">
+            <span class="sentence"><p>Price to fill your car: <span id="fillPrice" class="js"></span><span> LBP</span></p></span>
+            <span class="sentence"><p>Your car can drive for <span id="tankMakesKm" class="js"></span><span> kms in one tank, and for </span><span id="capacityMakesKm" class="js"></span><span> kms when full.</span></p></span>
+            <span><p>Your car spends <span id="priceKm" class="js"></span><span> LBP per Kilometer.</span></p></span>
+            </div> 
     </div>
 </body>
 
