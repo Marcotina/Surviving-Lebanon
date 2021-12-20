@@ -55,27 +55,27 @@
       </div>
 
       <div class="card">
-        <a href="">
+        <a href="html/cards/miscresources">
         <div class="cardContent" >
         <div class="cardFront">
           <img src="assets/pictures/humanCare.jpg" class="cardImg">
         </div>
         <div class="cardBack">
-          <h2 class="cardTitle"></h2>
-          <p class="cardText"></p>
+          <h2 class="cardTitle">Miscellaneous resources</h2>
+          <p class="cardText">Resources ranging from women's sanitary pads, to tuition coverage.</p>
         </div>
         </div>
       </div>
 
       <div class="card">
-        <a href="">
+        <a href="html/Cards/transport.html">
         <div class="cardContent" >
         <div class="cardFront">
           <img src="assets/pictures/transport.jpg" class="cardImg">
         </div>
         <div class="cardBack">
           <h2 class="cardTitle">Lower cost, and safe public transportation</h2>
-          <p class="cardText"></p>
+          <p class="cardText">Public transportation services that are cheaper and safer than traditional public transportation services.</p>
         </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="cardBack">
           <h2 class="cardTitle">PESTEL analysis for Lebanon.</h2>
-          <p class="cardText"></p>
+          <p class="cardText">Analysis of the country's social, political, economic, legislative, and ecological state.</p>
         </div>
         </div>
       </div>
@@ -119,8 +119,6 @@
         </div>
         </a>
       </div>
-
-      
 
     </div>
     </div>

@@ -50,7 +50,7 @@
                 - July: 54.10% increase in LBP rate. Rate during July: 1$ = 8'081 LBP.  
             </p>
             <p class="text">
-                <p id="special">- August 4: Beirut port explosion caused by 2'750 tonnes of ammonium nitrate stored in a port warehouse, kills over 200 people, injures 5000. Damage estimated at around $15 Billion. For charts, consult <a href="https://www.consultancy.uk/news/25577/8-charts-on-the-economic-cost-of-beiruts-port-explosion">this link.</a></p>
+                <p id="special">- August 4: Beirut port explosion caused by 2'750 tonnes of ammonium nitrate stored in a port warehouse, kills over 200 people, injures 5000. Damage estimated at around $15 Billion. For charts, consult <a href="https://www.consultancy.uk/news/25577/8-charts-on-the-economic-cost-of-beiruts-port-explosion" target="_blank">this link.</a></p>
             <p class="text">    
                 - August 5: Government declares a two week state of emergency.
             </p>
@@ -89,13 +89,13 @@
         <div id="scroll-container">
             <div id="scroll-text">
             <p id="reference-title">References</p>
-            <p class="reference-text">"The Fluctuation of Lebanese Lira Against the US Dollar In the Parallel Market", (2021):<a href="https://blog.blominvestbank.com/41472/the-fluctuation-of-lebanese-lira-against-the-us-dollar-in-the-parallel-market/">Link here</a></p><br>
-            <p class="reference-text">Lira Rate, 2021: <a href="https://lirarate.org">Link here</a></p> <br>
-            <p class="reference-text">Relief Web: "A Timeline of Crises in Lebanon" (2021): <a href="https://reliefweb.int/report/lebanon/timeline-crises-lebanon">Link here</a></p><br>
+            <p class="reference-text">"The Fluctuation of Lebanese Lira Against the US Dollar In the Parallel Market", (2021):<a href="https://blog.blominvestbank.com/41472/the-fluctuation-of-lebanese-lira-against-the-us-dollar-in-the-parallel-market" target="_blank">Link here</a></p><br>
+            <p class="reference-text">Lira Rate, 2021: <a href="https://lirarate.org" target="_blank">Link here</a></p> <br>
+            <p class="reference-text">Relief Web: "A Timeline of Crises in Lebanon" (2021): <a href="https://reliefweb.int/report/lebanon/timeline-crises-lebanon" target="_blank">Link here</a></p><br>
             <p class="reference-text">"Beirut Port Damage assessment: 8 charts on the economic cost of Beirut's port explosion" (ConstultancyUk, 2020): <a href="https://www.consultancy.uk/news/25577/8-charts-on-the-economic-cost-of-beiruts-port-explosion">Link here</a></p><br>
-            <p class="reference-text">"Beirut Explosion: Macron calls for 'deep change' in Lebanon after blast" (BBC News, 2020): <a href="https://www.bbc.com/news/world-middle-east-53686563">Link here</a></p><br>
-            <p class="reference-text">"Three Lebanese killed in fights related to fuel shortages" (Alarabiya, 2021): <a href="https://english.alarabiya.net/News/middle-east/2021/08/10/Three-Lebanese-killed-in-fights-related-to-fuel-shortages">Link here</a></p><br>
-            <p class="reference-text">"Lebanese Bank Dollars (Lollars) are now worth LBP 8,000" (Melki Law Firm, 9 December 2021): <a href=https://melkilawfirm.com/latest-news/lebanese-bank-dollars-lollars-are-now-worth-lbp-8000>Link here</a></p>
+            <p class="reference-text">"Beirut Explosion: Macron calls for 'deep change' in Lebanon after blast" (BBC News, 2020): <a href="https://www.bbc.com/news/world-middle-east-53686563" target="_blank">Link here</a></p><br>
+            <p class="reference-text">"Three Lebanese killed in fights related to fuel shortages" (Alarabiya, 2021): <a href="https://english.alarabiya.net/News/middle-east/2021/08/10/Three-Lebanese-killed-in-fights-related-to-fuel-shortages" target="_blank">Link here</a></p><br>
+            <p class="reference-text">"Lebanese Bank Dollars (Lollars) are now worth LBP 8,000" (Melki Law Firm, 9 December 2021): <a href=https://melkilawfirm.com/latest-news/lebanese-bank-dollars-lollars-are-now-worth-lbp-8000 target="_blank">Link here</a></p>
             <div>
         </div>
     </body>

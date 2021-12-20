@@ -3,3 +3,61 @@ body{
     background-size: 100%;
     font-family:'Josefin Sans', sans-serif;
 }
+
+.info {
+    width:30%;
+    float:left;
+    background-color: #1c1c3d71;
+    padding:10px;
+    margin:10px;
+    border: outset 3px gray;
+    height:180px;
+  }
+  
+  .info h2 {
+    font-family:verdana, sans-serif;
+    color:#fff;
+    text-shadow:2px 2px 3px #777;
+    font-size:20px;
+  }
+  
+  .info p{
+    font-family:verdana, sans-serif;
+    color:#fff;
+    font-size: 17px;
+  }
+  
+  .more {
+    text-decoration:none;
+    color:#fff;
+    padding:5px;
+    border:1px solid #ccc;
+    background:#454545;
+  }
+
+  #betlbaraka{
+      width: 30%;
+  }
+  #lebele{
+      width: 50%
+  }
+
+#lvsh{
+    width: 17%;
+}
+
+#meb{
+    width: 15%;;
+}
+
+#restart{
+    width: 40%
+}
+
+#foodblessed{
+    width: 40%;
+}
+
+#lfb{
+    width: 40%;
+}

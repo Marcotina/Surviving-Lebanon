@@ -41,7 +41,7 @@
           <div class="list-group">
             <a href="html/cards/redCross" class="cardTitle">The Lebanese Red Cross<i class="fa fa-chevron-circle-right hvr-icon fa-xs"></i></a>
             <li class="emergencyInfo">Contact Details: 140 Hotline number</li>
-            <li> <a href="https://www.redcross.org.lb/#donate-now" class="cardLink">Donate to the Lebanese Red Cross</a></li>
+            <li> <a href="https://www.redcross.org.lb/#donate-now" target="_blank" class="cardLink">Donate to the Lebanese Red Cross</a></li>
           </div>
         </div>
       </div>

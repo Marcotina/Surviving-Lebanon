@@ -6,8 +6,48 @@ body {
     z-index: 1;
 }
 
-#headline {
-    font-family:'Josefin Sans', sans-serif;
-    font-size: 70px;
-    border: 3px outset gray;
+.container{
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    margin-top: 10vh;
+    border: 3px solid black;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+
+.col {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  button {
+    margin: 20px;
+  }
+  .btn {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btn1 {
+    border: 2px solid #000;
+  }
+  .btn1:hover {
+    background: #000;
+    color: #fff;
+  }
+  .btn1:active {
+    top: 2px;
+  }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }

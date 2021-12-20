@@ -13,9 +13,9 @@
     <head>
     <link rel="stylesheet" href="../assets/css/common.css">
     <link rel="stylesheet" href="../assets/css/about.css">
-
-
-    </head>
+    <meta charset="UTF-8">
+</head>
+    <title>About us</title>
     <body>
         <div id="maintext">
             <p class="line">As university students, it can be heart-breaking to see the country we grew up in and aspired to be functional members of, fall from grace, and eradicate our hopes of having a future in it. It simply crushes one's ambitions, and we felt our motivation slipping.</p>

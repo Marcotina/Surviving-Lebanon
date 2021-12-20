@@ -12,6 +12,14 @@
     <head>
   <title>Home</title>
 <link rel = "stylesheet" type = "text/css" href = "../assets/css/home.css"/>
+<link rel='shortcut icon' type='image/x-icon' href="html/layout/favicon.ico"/>
+    </head>
+<body>
+  <div class="container">
+    <p>Hi Bakhos :)</p>
+  </div>
+  
+</body>
 </html>
 
 

@@ -1,0 +1,67 @@
+body{
+    background-image: url("../pictures/5.jpg");
+    background-size: 100%;
+    font-family:'Josefin Sans', sans-serif;
+  }
+
+  .info {
+    width:30%;
+    float:left;
+    background-color: #11112e81;
+    padding:10px;
+    margin:5px;
+  }
+  
+  
+  .info h2 {
+    font-family:verdana, sans-serif;
+    color:#fff;
+    text-shadow:2px 2px 3px #777;
+    font-size:20px;
+  }
+  
+  .info p{
+    font-family:verdana, sans-serif;
+    color:#fff;
+    font-size: 17px;
+  }
+  
+  .more {
+    text-decoration:none;
+    color:#fff;
+    padding:5px;
+    border:1px solid #ccc;
+    background:#454545;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    
+   .info {
+    width:98%;
+    float:left;
+    margin:5px 0 0 0;
+    height:auto;
+   }
+    
+  
+  }
+  
+  #lebele{
+    width: 50%
+}
+#betlbaraka{
+    width: 30%;
+}
+
+#dawrati{
+    width: 30%;
+}
+
+#loubnaniyoun{
+    width: 40%;
+}
+#restart{
+  width: 40%
+}
