@@ -1,6 +1,6 @@
 function addTwoNumbers() {
     "use strict"
-    let gasPrice = 302600; /*B1*/
+    let gasPrice = 323200; /*B1*/
     let tank = 20; /*B2*/
     var x = document.getElementById("numberIn1").value;
     var y = document.getElementById("numberIn2").value; 
