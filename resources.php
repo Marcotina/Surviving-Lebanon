@@ -20,8 +20,8 @@
     <div id="page-container">
     <div id="content-wrap">
       <div id='liraRate'>
-        <span id="border">1 USD is bought at 27'350 LBP<br><br>
-        1 USD is <span id="space">sold</span><span id="space">at 27'300 LBP</span></span>
+        <span id="border">1 USD is bought at 27'250 LBP<br><br>
+        1 USD is <span id="space">sold</span><span id="space">at 27'200 LBP</span></span>
       </div>
       <div id="gasPrice">
       <span id="border"> 1 tank of 95 unleaded fuel is sold at 325'000 LBP</span>
